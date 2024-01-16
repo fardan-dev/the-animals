@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>api-key-ninjas</key>
+	<string>pfFQJxLiPMYqvY5rZXbYdw==VBjYVanTRFZdEhx9</string>
+	<key>api-key-pexels</key>
+	<string>F0RsC7L6viQO7bzFmZTKs7hwGWhXlwm5TjAozyXUwkTmB8INisxbwjVg</string>
+	<key>base-url-ninjas</key>
+	<string>https://api.api-ninjas.com/</string>
+	<key>base-url-pexels</key>
+	<string>https://api.pexels.com/</string>
+</dict>
+</plist>

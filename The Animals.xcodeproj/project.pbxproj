@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4205090C2B5576D30087EE97 /* FavouritesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4205090B2B5576D30087EE97 /* FavouritesInteractor.swift */; };
+		424FE77A2B4FC4E300DF2E15 /* The_AnimalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE7792B4FC4E300DF2E15 /* The_AnimalsApp.swift */; };
+		424FE77C2B4FC4E300DF2E15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE77B2B4FC4E300DF2E15 /* ContentView.swift */; };
+		424FE77E2B4FC4E800DF2E15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424FE77D2B4FC4E800DF2E15 /* Assets.xcassets */; };
+		424FE7812B4FC4E800DF2E15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424FE7802B4FC4E800DF2E15 /* Preview Assets.xcassets */; };
+		424FE78D2B4FC91200DF2E15 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 424FE78C2B4FC91200DF2E15 /* Alamofire */; };
+		424FE7902B4FC93200DF2E15 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 424FE78F2B4FC93200DF2E15 /* CachedAsyncImage */; };
+		424FE7942B4FC9FD00DF2E15 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE7932B4FC9FD00DF2E15 /* APICall.swift */; };
+		424FE7962B4FCD5C00DF2E15 /* Constant.plist in Resources */ = {isa = PBXBuildFile; fileRef = 424FE7952B4FCD5C00DF2E15 /* Constant.plist */; };
+		424FE7A12B50454600DF2E15 /* TheAnimals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 424FE79F2B50454600DF2E15 /* TheAnimals.xcdatamodeld */; };
+		424FE7A32B50473800DF2E15 /* LocaleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE7A22B50473800DF2E15 /* LocaleDataSource.swift */; };
+		424FE7A52B5048FC00DF2E15 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE7A42B5048FC00DF2E15 /* RemoteDataSource.swift */; };
+		424FE7A82B5050FC00DF2E15 /* AnimalResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE7A72B5050FC00DF2E15 /* AnimalResponse.swift */; };
+		424FE7AA2B50521200DF2E15 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE7A92B50521200DF2E15 /* PhotoResponse.swift */; };
+		424FE7AD2B5053F600DF2E15 /* CustomeError+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FE7AC2B5053F600DF2E15 /* CustomeError+Ext.swift */; };
+		427577682B512280003E0A25 /* AnimalEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577672B512280003E0A25 /* AnimalEntity.swift */; };
+		4275776A2B5140D4003E0A25 /* TheAnimalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577692B5140D4003E0A25 /* TheAnimalRepository.swift */; };
+		4275776E2B5141B8003E0A25 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275776D2B5141B8003E0A25 /* AnimalModel.swift */; };
+		427577712B514332003E0A25 /* TheAnimalMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577702B514332003E0A25 /* TheAnimalMapper.swift */; };
+		4275777B2B5146A1003E0A25 /* ListAnimalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275777A2B5146A1003E0A25 /* ListAnimalsView.swift */; };
+		4275777D2B5147A5003E0A25 /* ListSpecificAnimalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275777C2B5147A5003E0A25 /* ListSpecificAnimalsView.swift */; };
+		4275777F2B51486A003E0A25 /* ListAnimalsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275777E2B51486A003E0A25 /* ListAnimalsPresenter.swift */; };
+		427577812B514B4B003E0A25 /* AnimalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577802B514B4B003E0A25 /* AnimalRouter.swift */; };
+		427577832B514C27003E0A25 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577822B514C27003E0A25 /* Injection.swift */; };
+		427577852B514D16003E0A25 /* AnimalsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577842B514D16003E0A25 /* AnimalsInteractor.swift */; };
+		427577872B514EA1003E0A25 /* ListSpecificAnimalsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577862B514EA1003E0A25 /* ListSpecificAnimalsPresenter.swift */; };
+		427577892B52E0BA003E0A25 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427577882B52E0BA003E0A25 /* SnapCarousel.swift */; };
+		42BEEF042B554C2300D65D8B /* ListFavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEEF032B554C2300D65D8B /* ListFavouritesView.swift */; };
+		42BEEF062B554CCE00D65D8B /* ListFavouritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BEEF052B554CCE00D65D8B /* ListFavouritesPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4205090B2B5576D30087EE97 /* FavouritesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesInteractor.swift; sourceTree = "<group>"; };
+		424FE7762B4FC4E300DF2E15 /* The Animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Animals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424FE7792B4FC4E300DF2E15 /* The_AnimalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_AnimalsApp.swift; sourceTree = "<group>"; };
+		424FE77B2B4FC4E300DF2E15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		424FE77D2B4FC4E800DF2E15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		424FE7802B4FC4E800DF2E15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		424FE7932B4FC9FD00DF2E15 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		424FE7952B4FCD5C00DF2E15 /* Constant.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Constant.plist; sourceTree = "<group>"; };
+		424FE7A02B50454600DF2E15 /* TheAnimals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheAnimals.xcdatamodel; sourceTree = "<group>"; };
+		424FE7A22B50473800DF2E15 /* LocaleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleDataSource.swift; sourceTree = "<group>"; };
+		424FE7A42B5048FC00DF2E15 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		424FE7A72B5050FC00DF2E15 /* AnimalResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalResponse.swift; sourceTree = "<group>"; };
+		424FE7A92B50521200DF2E15 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
+		424FE7AC2B5053F600DF2E15 /* CustomeError+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomeError+Ext.swift"; sourceTree = "<group>"; };
+		427577672B512280003E0A25 /* AnimalEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalEntity.swift; sourceTree = "<group>"; };
+		427577692B5140D4003E0A25 /* TheAnimalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnimalRepository.swift; sourceTree = "<group>"; };
+		4275776D2B5141B8003E0A25 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		427577702B514332003E0A25 /* TheAnimalMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAnimalMapper.swift; sourceTree = "<group>"; };
+		4275777A2B5146A1003E0A25 /* ListAnimalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAnimalsView.swift; sourceTree = "<group>"; };
+		4275777C2B5147A5003E0A25 /* ListSpecificAnimalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSpecificAnimalsView.swift; sourceTree = "<group>"; };
+		4275777E2B51486A003E0A25 /* ListAnimalsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAnimalsPresenter.swift; sourceTree = "<group>"; };
+		427577802B514B4B003E0A25 /* AnimalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRouter.swift; sourceTree = "<group>"; };
+		427577822B514C27003E0A25 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		427577842B514D16003E0A25 /* AnimalsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsInteractor.swift; sourceTree = "<group>"; };
+		427577862B514EA1003E0A25 /* ListSpecificAnimalsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSpecificAnimalsPresenter.swift; sourceTree = "<group>"; };
+		427577882B52E0BA003E0A25 /* SnapCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		42BEEF032B554C2300D65D8B /* ListFavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFavouritesView.swift; sourceTree = "<group>"; };
+		42BEEF052B554CCE00D65D8B /* ListFavouritesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFavouritesPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		424FE7732B4FC4E300DF2E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424FE78D2B4FC91200DF2E15 /* Alamofire in Frameworks */,
+				424FE7902B4FC93200DF2E15 /* CachedAsyncImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		424FE76D2B4FC4E300DF2E15 = {
+			isa = PBXGroup;
+			children = (
+				424FE7782B4FC4E300DF2E15 /* The Animals */,
+				424FE7772B4FC4E300DF2E15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		424FE7772B4FC4E300DF2E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7762B4FC4E300DF2E15 /* The Animals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		424FE7782B4FC4E300DF2E15 /* The Animals */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7872B4FC81B00DF2E15 /* App */,
+				424FE7882B4FC82D00DF2E15 /* Core */,
+				424FE7892B4FC83400DF2E15 /* Module */,
+				424FE78A2B4FC86800DF2E15 /* FileSystem */,
+				424FE77F2B4FC4E800DF2E15 /* Preview Content */,
+			);
+			path = "The Animals";
+			sourceTree = "<group>";
+		};
+		424FE77F2B4FC4E800DF2E15 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7802B4FC4E800DF2E15 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		424FE7872B4FC81B00DF2E15 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7792B4FC4E300DF2E15 /* The_AnimalsApp.swift */,
+				424FE77B2B4FC4E300DF2E15 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		424FE7882B4FC82D00DF2E15 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7972B4FFFDF00DF2E15 /* Data */,
+				424FE7982B4FFFE500DF2E15 /* Domain */,
+				424FE7992B4FFFF000DF2E15 /* DI */,
+				424FE7912B4FC9DB00DF2E15 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		424FE7892B4FC83400DF2E15 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				427577742B5145E9003E0A25 /* Favourite */,
+				427577722B5145D1003E0A25 /* Animal */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		424FE78A2B4FC86800DF2E15 /* FileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				424FE79F2B50454600DF2E15 /* TheAnimals.xcdatamodeld */,
+				424FE77D2B4FC4E800DF2E15 /* Assets.xcassets */,
+				424FE7952B4FCD5C00DF2E15 /* Constant.plist */,
+			);
+			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		424FE7912B4FC9DB00DF2E15 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				42BEEEFD2B5541E600D65D8B /* Views */,
+				4275776F2B514323003E0A25 /* Mapper */,
+				424FE7AB2B5053E600DF2E15 /* Extensions */,
+				424FE7922B4FC9EC00DF2E15 /* Network */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		424FE7922B4FC9EC00DF2E15 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7932B4FC9FD00DF2E15 /* APICall.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		424FE7972B4FFFDF00DF2E15 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				424FE79B2B50002700DF2E15 /* Remote */,
+				424FE79A2B50001300DF2E15 /* Locale */,
+				427577692B5140D4003E0A25 /* TheAnimalRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		424FE7982B4FFFE500DF2E15 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4275776B2B5141A4003E0A25 /* UseCase */,
+				4275776C2B5141AA003E0A25 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		424FE7992B4FFFF000DF2E15 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				427577822B514C27003E0A25 /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		424FE79A2B50001300DF2E15 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				427577662B51226B003E0A25 /* Entity */,
+				424FE7A22B50473800DF2E15 /* LocaleDataSource.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		424FE79B2B50002700DF2E15 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7A62B504F1000DF2E15 /* Responses */,
+				424FE7A42B5048FC00DF2E15 /* RemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		424FE7A62B504F1000DF2E15 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7A72B5050FC00DF2E15 /* AnimalResponse.swift */,
+				424FE7A92B50521200DF2E15 /* PhotoResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		424FE7AB2B5053E600DF2E15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				424FE7AC2B5053F600DF2E15 /* CustomeError+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		427577662B51226B003E0A25 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				427577672B512280003E0A25 /* AnimalEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		4275776B2B5141A4003E0A25 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				427577842B514D16003E0A25 /* AnimalsInteractor.swift */,
+				4205090B2B5576D30087EE97 /* FavouritesInteractor.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		4275776C2B5141AA003E0A25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4275776D2B5141B8003E0A25 /* AnimalModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4275776F2B514323003E0A25 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				427577702B514332003E0A25 /* TheAnimalMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		427577722B5145D1003E0A25 /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				427577752B51461C003E0A25 /* Router */,
+				427577762B514622003E0A25 /* Presenter */,
+				427577772B514629003E0A25 /* View */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		427577742B5145E9003E0A25 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				42BEEEFF2B554BE500D65D8B /* Presenter */,
+				42BEEEFE2B554BDF00D65D8B /* View */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		427577752B51461C003E0A25 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				427577802B514B4B003E0A25 /* AnimalRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		427577762B514622003E0A25 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4275777E2B51486A003E0A25 /* ListAnimalsPresenter.swift */,
+				427577862B514EA1003E0A25 /* ListSpecificAnimalsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		427577772B514629003E0A25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4275777A2B5146A1003E0A25 /* ListAnimalsView.swift */,
+				4275777C2B5147A5003E0A25 /* ListSpecificAnimalsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42BEEEFD2B5541E600D65D8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				427577882B52E0BA003E0A25 /* SnapCarousel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42BEEEFE2B554BDF00D65D8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42BEEF032B554C2300D65D8B /* ListFavouritesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		42BEEEFF2B554BE500D65D8B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				42BEEF052B554CCE00D65D8B /* ListFavouritesPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		424FE7752B4FC4E300DF2E15 /* The Animals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424FE7842B4FC4E800DF2E15 /* Build configuration list for PBXNativeTarget "The Animals" */;
+			buildPhases = (
+				424FE7722B4FC4E300DF2E15 /* Sources */,
+				424FE7732B4FC4E300DF2E15 /* Frameworks */,
+				424FE7742B4FC4E300DF2E15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Animals";
+			packageProductDependencies = (
+				424FE78C2B4FC91200DF2E15 /* Alamofire */,
+				424FE78F2B4FC93200DF2E15 /* CachedAsyncImage */,
+			);
+			productName = "The Animals";
+			productReference = 424FE7762B4FC4E300DF2E15 /* The Animals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424FE76E2B4FC4E300DF2E15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					424FE7752B4FC4E300DF2E15 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 424FE7712B4FC4E300DF2E15 /* Build configuration list for PBXProject "The Animals" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 424FE76D2B4FC4E300DF2E15;
+			packageReferences = (
+				424FE78B2B4FC91200DF2E15 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				424FE78E2B4FC93200DF2E15 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
+			productRefGroup = 424FE7772B4FC4E300DF2E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				424FE7752B4FC4E300DF2E15 /* The Animals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		424FE7742B4FC4E300DF2E15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424FE7812B4FC4E800DF2E15 /* Preview Assets.xcassets in Resources */,
+				424FE7962B4FCD5C00DF2E15 /* Constant.plist in Resources */,
+				424FE77E2B4FC4E800DF2E15 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		424FE7722B4FC4E300DF2E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4205090C2B5576D30087EE97 /* FavouritesInteractor.swift in Sources */,
+				4275777D2B5147A5003E0A25 /* ListSpecificAnimalsView.swift in Sources */,
+				4275776A2B5140D4003E0A25 /* TheAnimalRepository.swift in Sources */,
+				424FE7A82B5050FC00DF2E15 /* AnimalResponse.swift in Sources */,
+				4275777B2B5146A1003E0A25 /* ListAnimalsView.swift in Sources */,
+				42BEEF062B554CCE00D65D8B /* ListFavouritesPresenter.swift in Sources */,
+				427577872B514EA1003E0A25 /* ListSpecificAnimalsPresenter.swift in Sources */,
+				424FE7AD2B5053F600DF2E15 /* CustomeError+Ext.swift in Sources */,
+				424FE77C2B4FC4E300DF2E15 /* ContentView.swift in Sources */,
+				424FE7A12B50454600DF2E15 /* TheAnimals.xcdatamodeld in Sources */,
+				427577682B512280003E0A25 /* AnimalEntity.swift in Sources */,
+				427577712B514332003E0A25 /* TheAnimalMapper.swift in Sources */,
+				424FE77A2B4FC4E300DF2E15 /* The_AnimalsApp.swift in Sources */,
+				4275776E2B5141B8003E0A25 /* AnimalModel.swift in Sources */,
+				424FE7942B4FC9FD00DF2E15 /* APICall.swift in Sources */,
+				424FE7A52B5048FC00DF2E15 /* RemoteDataSource.swift in Sources */,
+				42BEEF042B554C2300D65D8B /* ListFavouritesView.swift in Sources */,
+				424FE7A32B50473800DF2E15 /* LocaleDataSource.swift in Sources */,
+				427577892B52E0BA003E0A25 /* SnapCarousel.swift in Sources */,
+				427577812B514B4B003E0A25 /* AnimalRouter.swift in Sources */,
+				427577852B514D16003E0A25 /* AnimalsInteractor.swift in Sources */,
+				427577832B514C27003E0A25 /* Injection.swift in Sources */,
+				4275777F2B51486A003E0A25 /* ListAnimalsPresenter.swift in Sources */,
+				424FE7AA2B50521200DF2E15 /* PhotoResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		424FE7822B4FC4E800DF2E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		424FE7832B4FC4E800DF2E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424FE7852B4FC4E800DF2E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Animals/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fardan.The-Animals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		424FE7862B4FC4E800DF2E15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Animals/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fardan.The-Animals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		424FE7712B4FC4E300DF2E15 /* Build configuration list for PBXProject "The Animals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424FE7822B4FC4E800DF2E15 /* Debug */,
+				424FE7832B4FC4E800DF2E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424FE7842B4FC4E800DF2E15 /* Build configuration list for PBXNativeTarget "The Animals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424FE7852B4FC4E800DF2E15 /* Debug */,
+				424FE7862B4FC4E800DF2E15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		424FE78B2B4FC91200DF2E15 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+		424FE78E2B4FC93200DF2E15 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		424FE78C2B4FC91200DF2E15 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 424FE78B2B4FC91200DF2E15 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		424FE78F2B4FC93200DF2E15 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 424FE78E2B4FC93200DF2E15 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		424FE79F2B50454600DF2E15 /* TheAnimals.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				424FE7A02B50454600DF2E15 /* TheAnimals.xcdatamodel */,
+			);
+			currentVersion = 424FE7A02B50454600DF2E15 /* TheAnimals.xcdatamodel */;
+			path = TheAnimals.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 424FE76E2B4FC4E300DF2E15 /* Project object */;
+}
